@@ -1,0 +1,6 @@
+local:
+  service: Disk
+  root: <%= Rails.root.join("storage") %>
+
+  # Need to setup S3 storage later for prod
+  # Store under storage/production.yml
